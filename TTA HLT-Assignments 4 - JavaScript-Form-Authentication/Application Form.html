@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Application</title>
+    <link href="style.css" rel="stylesheet"/>
+    <script src="script.js"></script> 
+</head>
+<body>
+    <marquee style="color: brown;">Welcome, Our Estemmed Customer....Kindly locate the Application Form from the tab and fill with your acccurate details.... Thank you!...</marquee>
+    <header>
+
+        <div class="header-container">
+            <h4> Application / Authentication Form</h4>
+            <ul class="items">
+                <li><a href="indexJavascript.html"><b>Home</b></a></li>
+                <li><a href="Application Form.html"><b>Application Form</b></a></li>
+            </ul>
+        </div>
+    </header>
+
+    <p id="bb"><b>Application Form</b></p>
+    <p id="bc"><i>(Kindly, fill this with the accurate Information)</i></p>
+    <br/>
+
+<table>
+ <tr>
+
+<td>
+  <label>Full name  </label><br/>
+  <input type="text" name="name" id="n1"/>
+  <p id="msg" style="color: red";> </p>
+</td>
+</tr>
+
+
+<tr>
+    <td>
+        <label>Email</label> <br/>
+         <input type="email" name="email" id="em1"/>
+         <p id="msg2" style="color: red";> </p>
+      </td>
+</tr>
+
+<tr>
+
+    <td>
+        <label>Mobile Number</label><br/>
+        <input type="number" name="number" id="nm1"/>
+        <p id="msg3" style="color: red";> </p>
+    </td>
+</tr>
+
+<tr>
+
+    <td>
+        <label>Country</label><br/>
+        <select>
+            <option value="Select">Select</option>
+            <option value="Nigeria">Nigeria</option>
+            <option value="United Kingdom">United Kingdom</option>
+            <option value="United States">United States</option>
+            <option value="Canada">Canada</option>
+            <option value="Australia">Australia</option>
+            <option value="Germany">Germany</option>
+        </select>
+    </td>
+</tr>
+<tr>
+    <td>
+        <label>Gender</label><br/>
+       Male <input type="radio" value="Male"/> 
+       Female <input type="radio" value="Female"/>
+    </td>
+</tr>
+
+<tr>
+    <td>
+        <label>Hobbies<i> (optional)</i></label><br/>
+        Sports<input type="checkbox" name = "check"/>
+        Movies<input type="checkbox" name = "check"/>
+        Music<input type="checkbox" name = "check"/>
+    </td>
+</tr>
+
+<tr>
+    <td>
+        <input id="bd" type="button" value="Submit" onclick="submit()"/>
+    </td>
+</tr>
+
+</table>
+
+</body>
+
+<br/>
+<footer id="dcc">
+    <p id="dc"><b>developed by George copyright &#169; George Tech 2021.</b></p> 
+ </footer>
+</html>
